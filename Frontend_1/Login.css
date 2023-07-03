@@ -1,0 +1,26 @@
+body {
+    background-image: url("https://static-cse.canva.com/blob/571508/Patterns303.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  color: rgb(255, 255, 255);
+  }
+
+  .vh-100.gradient-custom{
+    background-image: url("https://static-cse.canva.com/blob/571508/Patterns303.jpg") ;
+  }
+
+  .card.shadow-2-strong.card-registration {
+    background-color: rgb(100, 100, 100,0.5);
+}
+input#gender.none{
+  display: none;
+}
+input#button {
+    margin: 0;
+    position: relative;
+    top: 40%;
+    left: -50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

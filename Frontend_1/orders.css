@@ -1,0 +1,108 @@
+#content {
+    padding: 20px; /* Add padding to the content container */
+    border: 1px solid #ccc; /* Add a border to the content container */
+    border-radius: 5px; /* Add rounded corners to the content container */
+  }
+  
+  #create-order-container {
+    display: flex;
+    justify-content: flex-end; /* Move the button to the right side of the container */
+    align-items: center;
+    height: 50px; /* Set the height of the container */
+    margin-top: 10px; /* Add some spacing between the content and the button */
+  }
+  
+  #create-order-btn {
+    font-size: 16px; /* Set the font size of the button */
+    padding: 5px 10px; /* Set the padding of the button */
+    background-color: #007bff; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    border: none;
+    border-radius: 5px; /* Set the border radius of the button */
+    cursor: pointer;
+  }
+  .card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+}
+.text-reset {
+    --bs-text-opacity: 1;
+    color: inherit!important;
+}
+a {
+    color: #5465ff;
+    text-decoration: none;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Modal content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 1200px;
+}
+
+/* Information part */
+.information-part .card img {
+  max-width: 350px;
+  height: auto;
+}
+
+/* Items list */
+.items-list .img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+
+.items-list table {
+  margin-bottom: 0;
+}
+
+.items-list tbody td {
+  vertical-align: middle;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-top: 1px solid #dee2e6;
+}
+
+.items-list tbody td:first-child {
+  width: 60%;
+}
+
+.items-list tbody td:last-child {
+  text-align: right;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
